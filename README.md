@@ -10,18 +10,22 @@ A script that uses `xplanet` to make your desktop wallpaper a live map of the wo
 
 Assuming a setup of Fedora + MATE:
 
-1. Clone the repository  
+1. Install `xplanet`:  
+	```bash
+	sudo dnf install -y xplanet
+	```
+2. Clone the repository  
     ```bash
     cd ~/gitrepos # or wherever you keep this stuff
     git clone -v \
     	https://github.com/blairw/liveworldmap-linux
     ```
-2. Open your crontab  
+3. Open your crontab  
 	```bash
 	export EDITOR=nano # I don't like vim.. sorry..
 	crontab -e
 	```
-3. Put in an entry for the script
+4. Put in an entry for the script
     ```bash
     */5 * * * * /home/blair/gitrepos/liveworldmap-linux/cronjob.sh
     ```
@@ -30,8 +34,8 @@ Happy wallpaper-cronning! :)
 
 ## I'm not using Fedora + MATE
 
-- If you're using GNOME you should be able to just edit `cronjob.sh` to suit your needs
-- [cmcmahan](https://github.com/cmcmahan/Xplanet)'s repo for macOS (I haven't tested it)
+- If you're using GNOME you should be able to just edit `cronjob.sh` to suit your needs and use `apt-get` or whatever instead of `dnf`.
+- [cmcmahan](https://github.com/cmcmahan/Xplanet)'s repo for macOS (I haven't tested it).
 
 ## Acknowledgements
 
