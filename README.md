@@ -22,9 +22,11 @@ Assuming a setup of Fedora + MATE:
 	crontab -e
 	```
 3. Put in an entry for the script
-  ```bash
-  */5 * * * * /home/blair/gitrepos/liveworldmap-linux/cronjob.sh
-  ```
+    ```bash
+    */5 * * * * /home/blair/gitrepos/liveworldmap-linux/cronjob.sh
+    ```
+
+Happy wallpaper-cronning! :)
 
 ## I'm not using Fedora + MATE
 
