@@ -9,7 +9,7 @@ rm -f $worldmapdir/images/*.jpg
 unixtime=$(date +%s)
 xplanet -conf \
 	$worldmapdir/config/config.conf \
-	-projection rectangular -geometry 1920x1080 \
+	-projection rectangular -geometry 2845x1600 \
 	-output $worldmapdir/images/$unixtime.jpg --num_times 1
 
 ## Uncomment this for GNOME:
