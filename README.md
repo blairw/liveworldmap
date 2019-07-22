@@ -11,7 +11,7 @@ A script that uses `xplanet` to make your desktop wallpaper a live map of the wo
 1. Install `xplanet` (use the correct line for your OS):  
 	```bash
 	sudo dnf install -y xplanet # Fedora
-    brew cask install xplanet   # MacOS
+    brew install xplanet   # MacOS
 	```
 2. Clone the repository  
     ```bash
