@@ -38,7 +38,7 @@ Happy wallpaper-cronning! :)
 
 ## Acknowledgements
 
-
+- Mac OS scripts: https://github.com/tech-otaku/macos-desktop
 - **Day imagery** `world.topo.bathy.200412.3x5400x2700.jpg`:  
 	NASA (2004), 'Blue Marble Next Generation', _Visible Earth_, https://visibleearth.nasa.gov/view.php?id=73909
 - **Night imagery** `dnb_land_ocean_ice.2012.3600x1800.jpg`:  
