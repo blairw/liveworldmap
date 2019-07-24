@@ -15,18 +15,18 @@ A script that uses `xplanet` to make your desktop wallpaper a live map of the wo
     sudo apt-get install -y xplanet # Ubuntu, Mint, Debian
     sudo pacman -S xplanet          # Arch Linux
 	```
-2. Clone the repository  
+2. Clone the repository:
     ```bash
     cd ~/00blair/gitrepos/ # or wherever you keep this stuff
     git clone -v https://github.com/blairw/liveworldmap
     ```
-3. Edit the config files `config/config.conf` and `cronjob.sh` to point the correct paths for your setup (and change the `myresolution` variable in the latter, to suit your screen!)  
-4. Open your crontab for editing
+3. Edit the config files `config/config.conf` and `cronjob.sh` to point the correct paths for your setup (and change the `myresolution` variable in the latter, to suit your screen!). 
+4. Open your crontab for editing:
 	```bash
 	export EDITOR=nano # I don't like vim.. sorry..
 	crontab -e
 	```
-5. Put in an entry for the script
+5. Put in an entry for the script:
     ```bash
     PATH=/usr/local/bin:/usr/bin:/bin
     */5 * * * * /Users/blair/00blair/gitrepos/liveworldmap/cronjob.sh
