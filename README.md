@@ -40,6 +40,7 @@ Happy wallpaper-cronning! :)
 ![Screenshot on Linux](docs/screenshot-linux.png)
 
 - If you're using MATE or GNOME you should be able to just edit `cronjob.sh` to suit your needs and use `apt-get` or whatever instead of `dnf`.
+- I think you might be able to get this working on KDE if you use KDE? Sorry I can't test this because I don't have any KDE installs, personally find KDE a bit too cluttered. This looks promising though: https://www.reddit.com/r/kde/comments/65pmhj/change_wallpaper_from_terminal/
 
 ## I'm using Windows
 
