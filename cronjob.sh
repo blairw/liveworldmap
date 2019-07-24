@@ -11,8 +11,10 @@ unixtime=$(date +%s)
 xplanet -conf \
 	$worldmapdir/config/config.conf \
 	-projection rectangular -geometry 2845x1600 \
-	-output $worldmapdir/images/latest.jpg --num_times 1
+	-output $worldmapdir/images/$unixtime.jpg --num_times 1
 
+
+echo tell application \"Finder\" to set desktop picture to POSIX file \"/Users/blair/00blair/gitrepos/liveworldmap/images/$unixtime.jpg\" > $worldmapdir/macos_wallpaper_change.scpt
 
 ## Uncomment this for GNOME:
 # gsettings set org.gnome.desktop.background picture-uri file://$worldmapdir/images/$unixtime.jpg
