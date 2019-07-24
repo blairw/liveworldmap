@@ -17,12 +17,11 @@ A script that uses `xplanet` to make your desktop wallpaper a live map of the wo
 	```
 2. Clone the repository  
     ```bash
-    cd ~/00blair/gitrepos # or wherever you keep this stuff
-    git clone -v \
-    	https://github.com/blairw/liveworldmap
+    cd ~/00blair/gitrepos/ # or wherever you keep this stuff
+    git clone -v https://github.com/blairw/liveworldmap
     ```
-3. Edit the config files `config/config.conf` and `cronjob.sh` to point the correct paths for your setup (and change the `myresolution` variable in the latter, to suit your screen!)
-4. Open your crontab  
+3. Edit the config files `config/config.conf` and `cronjob.sh` to point the correct paths for your setup (and change the `myresolution` variable in the latter, to suit your screen!)  
+4. Open your crontab for editing
 	```bash
 	export EDITOR=nano # I don't like vim.. sorry..
 	crontab -e
