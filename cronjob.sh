@@ -1,16 +1,16 @@
 #!/bin/bash
 
-# I think this is old GNOME stuff..?
+## I think this is old GNOME stuff..?
 # PID=$(pgrep -U 1000 gnome-session)
 # export DBUS_SESSION_BUS_ADDRESS=$(grep -z DBUS_SESSION_BUS_ADDRESS /proc/$PID/environ|cut -d= -f2-)
 
-
+myresolution=2845x1600
 worldmapdir=/Users/blair/00blair/gitrepos/liveworldmap
 rm -f $worldmapdir/images/*.jpg
 unixtime=$(date +%s)
 xplanet -conf \
 	$worldmapdir/config/config.conf \
-	-projection rectangular -geometry 2845x1600 \
+	-projection rectangular -geometry $myresolution \
 	-output $worldmapdir/images/$unixtime.jpg --num_times 1
 
 
