@@ -4,7 +4,7 @@
 
 A script that uses `xplanet` to make your desktop wallpaper a live map of the world using NASA imagery.
 
-![Screenshot on Fedora - MATE Desktop environment](docs/screenshot.png)
+![Screenshot on macOS](docs/screenshot-mac.png)
 
 ## How do I use this?
 
@@ -34,11 +34,16 @@ Happy wallpaper-cronning! :)
 
 ## I'm using Linux, but not Fedora
 
+![Screenshot on Linux](docs/screenshot-linux.png)
+
 - If you're using MATE or GNOME you should be able to just edit `cronjob.sh` to suit your needs and use `apt-get` or whatever instead of `dnf`.
+
+## I'm using Windows
+
+I'm sorry, this doesn't work on Windows right now. If you can get it working, that would be amazing!
 
 ## Acknowledgements
 
-- Mac OS scripts: https://github.com/tech-otaku/macos-desktop
 - **Day imagery** `world.topo.bathy.200412.3x5400x2700.jpg`:  
 	NASA (2004), 'Blue Marble Next Generation', _Visible Earth_, https://visibleearth.nasa.gov/view.php?id=73909
 - **Night imagery** `dnb_land_ocean_ice.2012.3600x1800.jpg`:  
